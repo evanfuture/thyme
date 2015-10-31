@@ -1,6 +1,6 @@
 <?php
 
-namespace Roots\Sage\Assets;
+namespace Thyme\Assets;
 
 /**
  * Get paths for assets

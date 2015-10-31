@@ -1,15 +1,12 @@
 {
-  "name": "sage",
-  "version": "8.3.0",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "name": "thyme-theme",
+  "version": "1.0.0",
+  "author": "Evan Payne <evan@evanpayne.com>",
+  "homepage": "https://thyme.dev",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/sage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/roots/sage/issues"
+    "url": "git://github.com/evanfuture/thyme-theme.git"
   },
   "licenses": [
     {
@@ -45,6 +42,8 @@
     "gulp-rev": "^6.0.0",
     "gulp-sass": "^2.0.1",
     "gulp-sourcemaps": "^1.5.2",
+    "gulp-svg2png": "^0.3.0",
+    "gulp-svgmin": "^1.2.0",
     "gulp-uglify": "^1.2.0",
     "imagemin-pngcrush": "^4.1.0",
     "jshint-stylish": "^2.0.1",
