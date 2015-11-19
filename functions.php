@@ -15,6 +15,7 @@ $thyme_includes = [
   'lib/setup.php',   // Theme setup
   'lib/titles.php',  // Page titles
   'lib/wrapper.php'  // Theme wrapper class
+  'lib/customizer.php' // Theme customizer
 ];
 
 foreach ($thyme_includes as $file) {
