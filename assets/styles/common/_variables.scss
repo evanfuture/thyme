@@ -1,9 +1,8 @@
-// Glyphicons font path
-$icon-font-path:        "../fonts/";
-
-// Grid settings
-$main-sm-columns:       12;
-$sidebar-sm-columns:    4;
-
 // Colors
-$brand-primary:         #27ae60;
+$highlight_color: #124124;
+$text_color: #333333;
+$background_color: $highlight_color;
+$container_max_width: 1000px;
+
+// Media Breakpoints
+$small_sized: 740px;

@@ -1,1 +1,50 @@
+@charset "UTF-8";
+html {
+    box-sizing: border-box;
+}
 
+* {
+    &,
+    &::after,
+    &::before {
+        box-sizing: inherit;
+    }
+}
+
+body {
+    background-color: $background_color;
+    color: $text_color;
+    font-size: 14px;
+    font-family: "AurulentSansRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: $container_max_width;
+    width: 100vw;
+    background-color: white;
+}
+
+img,
+object,
+embed {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: $highlight_color;
+    text-decoration: none;
+    line-height: inherit;
+    &>:hover,
+    &>:focus {
+        color: darken($highlight_color, 10%);
+    }
+    &:focus {
+        outline: none;
+    }
+    &>img {
+        border: none;
+    }
+}
