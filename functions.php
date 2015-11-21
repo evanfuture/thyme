@@ -14,7 +14,7 @@ $thyme_includes = [
   'lib/extras.php',  // Custom functions
   'lib/setup.php',   // Theme setup
   'lib/titles.php',  // Page titles
-  'lib/wrapper.php'  // Theme wrapper class
+  'lib/wrapper.php',  // Theme wrapper class
   'lib/customizer.php' // Theme customizer
 ];
 
