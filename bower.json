@@ -15,6 +15,11 @@
       "main": [
         "./assets/stylesheets/_bootstrap.scss"
       ]
+    },
+    "normalize-css": {
+      "main": [
+        "../../assets/styles/overrides/_normalize.scss"
+      ]
     }
   }
 }
