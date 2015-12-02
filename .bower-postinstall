@@ -1,3 +1,3 @@
 #!/bin/sh
 
-mv bower_components/normalize-css/normalize.css assets/styles/overrides/_normalize.scss
+cp bower_components/normalize-css/normalize.css assets/styles/overrides/_normalize.scss
